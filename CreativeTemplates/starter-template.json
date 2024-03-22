@@ -1,0 +1,15 @@
+[
+  {
+    "name": "starter-template-300x250",
+    "size": "300x250",
+    "width": 300,
+    "height": 250,
+    "frameLimit": 3,
+    "frameMinCount": 1,
+    "globalTemplateName": "starter-template",
+    "start": ["start"],
+    "middle": ["middle"],
+    "end": ["end"],
+    "baseSize": 8000
+  }
+]

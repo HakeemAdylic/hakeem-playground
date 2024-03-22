@@ -1,0 +1,56 @@
+{
+  "template": [
+    {
+      "t": "f",
+      "c": "start-frame template-set-frame",
+      "d": 5000,
+      "j": {
+        "s": "ZnVuY3Rpb24gY21jRnJhbWVJbml0KCkgewogIHZhciBjbWNFbCA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcignLmZyYW1lLWNtYy1kYXRhJyk7CiAgdmFyIGtleXMgPSBjbWNFbC5kYXRhc2V0OwoKICBpZiAoa2V5cy5zdGF0dXMgPT09ICdvbicpIHsKICAgIGlmIChrZXlzLnZhbHVlRnJhbWUubGVuZ3RoID49IDEpIHsKICAgICAgZmV0Y2hDbWNEYXRhKGtleXMudmFsdWVGcmFtZSwgcGFyZW50Tm9kZS5xdWVyeVNlbGVjdG9yKCcuY21jLXZhbHVlRnJhbWUnKSwgYXBwZW5kRGF0YVRvRWwpOwogICAgfQogIH0KfQoKY21jRnJhbWVJbml0KCk7Cg=="
+      },
+      "e": [
+        {
+          "t": "e",
+          "c": "",
+          "h": "",
+          "s": ""
+        },
+        {
+          "t": "e",
+          "s": "display: none;",
+          "h": "<div class='frame-cmc-data' data-status='$frameCMCStatus' data-value-frame='$frameCMCValue'></div>"
+        },
+        {
+          "t": "e",
+          "c": "cmc-valueFrame",
+          "s": "position:absolute;width:100%;text-align:center;top:20px;"
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "target": "$frameCMCStatus",
+      "name": "Frame CMC Status",
+      "type": "radio",
+      "groupName": "Frame CMC",
+      "groupType": "select",
+      "initialValue": "off",
+      "properties": {
+        "value": "off"
+      },
+      "options": ["on", "off"],
+      "labels": ["On", "Off"]
+    },
+    {
+      "target": "$frameCMCValue",
+      "name": "Frame CMC API Key (Frame Value)",
+      "type": "text-cmc",
+      "groupName": "Frame CMC",
+      "groupType": "text-cmc",
+      "initialValue": "",
+      "properties": {
+        "value": ""
+      }
+    }
+  ]
+}
