@@ -1,0 +1,36 @@
+Frame 1 config
+    - headline
+        - size
+        - color
+        - X position
+            - 
+        - Y position
+    
+    - subheadline
+        - size
+        - color
+        - X position
+        - Y position
+
+    - backgroundImage
+    
+
+Frame 2 config
+    - headline
+        - size
+        - color
+        - X position
+        - Y position
+    
+    - subheadline
+        - size
+        - color
+        - X position
+        - Y position
+
+    - background-color
+
+    - image 1
+    - image 2
+    - image 3
+    

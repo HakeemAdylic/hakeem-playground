@@ -2,54 +2,238 @@
   "template": [
     {
       "t": "f",
-      "c": "start-frame template-set-frame",
-      "d": 5000,
+      "c": "frame start-frame template-set-frame",
+      "d": 3500,
       "j": {
-        "s": "ZnVuY3Rpb24gY21jRnJhbWVJbml0KCkgewogIHZhciBjbWNFbCA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcignLmZyYW1lLWNtYy1kYXRhJyk7CiAgdmFyIGtleXMgPSBjbWNFbC5kYXRhc2V0OwoKICBpZiAoa2V5cy5zdGF0dXMgPT09ICdvbicpIHsKICAgIGlmIChrZXlzLnZhbHVlRnJhbWUubGVuZ3RoID49IDEpIHsKICAgICAgZmV0Y2hDbWNEYXRhKGtleXMudmFsdWVGcmFtZSwgcGFyZW50Tm9kZS5xdWVyeVNlbGVjdG9yKCcuY21jLXZhbHVlRnJhbWUnKSwgYXBwZW5kRGF0YVRvRWwpOwogICAgfQogIH0KfQoKY21jRnJhbWVJbml0KCk7Cg=="
+        "s": "KGZ1bmN0aW9uICgpIHsKICBmdW5jdGlvbiBpc0RldkVudigpIHsKICAgIHJldHVybiAoCiAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmLmluZGV4T2YoJ29yY2EuYWR5bGljLmNvbScpID4gMCB8fAogICAgICB3aW5kb3cubG9jYXRpb24uaHJlZi5pbmRleE9mKCd0ZW1wbGF0ZS5hZHlsaWNvcmNhLmNvbScpID4gMCB8fAogICAgICB3aW5kb3cubG9jYXRpb24uaHJlZi5pbmRleE9mKCdzYXR1cm4uYWR5bGljLmNvbScpID4gMCB8fAogICAgICB3aW5kb3cubG9jYXRpb24uaG9zdG5hbWUgPT09ICcxMjcuMC4wLjEnIHx8CiAgICAgIHdpbmRvdy5sb2NhdGlvbi5ob3N0bmFtZSA9PT0gJ2xvY2FsaG9zdCcKICAgICk7CiAgfQoKICBmdW5jdGlvbiBkZXZMb2cobWVzc2FnZSkgewogICAgaWYgKGlzRGV2RW52KCkpIGNvbnNvbGUubG9nKG1lc3NhZ2UpOwogIH0KCiAgZnVuY3Rpb24gY2hlY2tGb3JHc2FwKGNhbGxiYWNrKSB7CiAgICBsZXQgREVBRExJTkVfTVMgPSAxMDAwMDsKICAgIGxldCBSRVRSWV9NUyA9IDEwMDsKICAgIGxldCBpbnRlcnZhbDsKCiAgICBsZXQgdGltZW91dCA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICBjbGVhckludGVydmFsKGludGVydmFsKTsKICAgICAgZGV2TG9nKCdHU0FQIGZhaWxlZCB0byBsb2FkIGFmdGVyICcgKyBERUFETElORV9NUyAvIDEwMDAgKyAnIHNlY29uZChzKS4nKTsKICAgIH0sIERFQURMSU5FX01TKTsKCiAgICB0cnkgewogICAgICBpZiAoZ3NhcCkgewogICAgICAgIGNsZWFyVGltZW91dCh0aW1lb3V0KTsKICAgICAgICBjYWxsYmFjaygpOwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgZGV2TG9nKCdJbml0aWFsIEdTQVAgbG9hZCBmYWlsZWQuIFRyeWluZyBhZ2Fpbi4nKTsKICAgICAgaW50ZXJ2YWwgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGlmIChnc2FwKSB7CiAgICAgICAgICAgIGNsZWFyVGltZW91dCh0aW1lb3V0KTsKICAgICAgICAgICAgY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7CiAgICAgICAgICAgIGNhbGxiYWNrKCk7CiAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCB7fQogICAgICB9LCBSRVRSWV9NUyk7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBpbml0R2xvYmFsQW5pbWF0aW9ucygpIHsKICAgIGNvbnN0IERVUkFUSU9OID0gMC41OwogICAgY29uc3QgT1ZFUkFMTF9EVVJBVElPTiA9IDMuNTsKCiAgICBjb25zdCBjdXJyZW50RnJhbWUgPSAnLnN0YXJ0LWZyYW1lJzsKCiAgICAvLyAgRGVmaW5lIGVsZW1lbnQgc2VsZWN0b3JzCiAgICBjb25zdCBoZWFkbGluZVNlbGVjdG9yID0gYCR7Y3VycmVudEZyYW1lfSAuaGVhZGxpbmVgOwogICAgY29uc3Qgc3ViaGVhZGxpbmVTZWxlY3RvciA9IGAke2N1cnJlbnRGcmFtZX0gLnN1YmhlYWRsaW5lYDsKICAgIGNvbnN0IHNpZ25TZWxlY3RvciA9IGAke2N1cnJlbnRGcmFtZX0gLnNpZ25gOwogICAgY29uc3QgYWNjZW50U2VsZWN0b3IgPSBgJHtjdXJyZW50RnJhbWV9IC5hY2NlbnRgOwogICAgY29uc3QgYmFja2dyb3VuZEltYWdlU2VsZWN0b3IgPSBgJHtjdXJyZW50RnJhbWV9IC5iYWNrZ3JvdW5kSW1hZ2UtY29udGFpbmVyYDsKCiAgICBnc2FwLnRvKGJhY2tncm91bmRJbWFnZVNlbGVjdG9yLCB7CiAgICAgIHNjYWxlOiAxLjEsCiAgICAgIGR1cmF0aW9uOiBPVkVSQUxMX0RVUkFUSU9OLAogICAgfSk7CgogICAgY29uc3QgdGwgPSBnc2FwLnRpbWVsaW5lKCk7CgogICAgdGwuZnJvbVRvKAogICAgICBoZWFkbGluZVNlbGVjdG9yLAogICAgICB7CiAgICAgICAgb3BhY2l0eTogMCwKICAgICAgICBzY2FsZTogMCwKICAgICAgfSwKICAgICAgewogICAgICAgIG9wYWNpdHk6IDEsCiAgICAgICAgc2NhbGU6IDEsCiAgICAgICAgZHVyYXRpb246IERVUkFUSU9OLAogICAgICB9CiAgICApIC8vIGVuZCB0aW1lOiAwLjUKICAgICAgLmZyb21UbygKICAgICAgICBzaWduU2VsZWN0b3IsCiAgICAgICAgewogICAgICAgICAgb3BhY2l0eTogMCwKICAgICAgICAgIHNjYWxlOiAwLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgb3BhY2l0eTogMSwKICAgICAgICAgIHNjYWxlOiAxLAogICAgICAgICAgZHVyYXRpb246IERVUkFUSU9OLAogICAgICAgIH0KICAgICAgKSAvLyBlbmQgdGltZTogMQogICAgICAudG8oc2lnblNlbGVjdG9yLCB7CiAgICAgICAgcm90YXRlOiAzOTAsCiAgICAgICAgZHVyYXRpb246IDEsCiAgICAgIH0pIC8vIGVuZCB0aW1lOiAyCiAgICAgIC50byhzaWduU2VsZWN0b3IsIHsKICAgICAgICByb3RhdGU6ICctPTMwJywKICAgICAgICBkdXJhdGlvbjogRFVSQVRJT04sCiAgICAgIH0pIC8vIGVuZCB0aW1lOiAyLjUKICAgICAgLmZyb21UbygKICAgICAgICBzdWJoZWFkbGluZVNlbGVjdG9yLAogICAgICAgIHsKICAgICAgICAgIG9wYWNpdHk6IDAsCiAgICAgICAgICB5OiAyMCwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIG9wYWNpdHk6IDEsCiAgICAgICAgICB5OiAwLAogICAgICAgICAgZHVyYXRpb246IERVUkFUSU9OLAogICAgICAgIH0sCiAgICAgICAgJy09MScKICAgICAgKQogICAgICAuZnJvbVRvKAogICAgICAgIGFjY2VudFNlbGVjdG9yLAogICAgICAgIHsKICAgICAgICAgIG9wYWNpdHk6IDAsCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBvcGFjaXR5OiAxLAogICAgICAgIH0sCiAgICAgICAgJy09MC41JwogICAgICApOwogIH0KCiAgY2hlY2tGb3JHc2FwKGluaXRHbG9iYWxBbmltYXRpb25zKTsKfSkoKTs="
       },
       "e": [
         {
           "t": "e",
-          "c": "",
-          "h": "",
-          "s": ""
+          "c": "backgroundImage-container",
+          "h": "<img class='backgroundImage' src='$backgroundImage' alt='background image' />"
         },
         {
           "t": "e",
-          "s": "display: none;",
-          "h": "<div class='frame-cmc-data' data-status='$frameCMCStatus' data-value-frame='$frameCMCValue'></div>"
+          "c": "headline",
+          "h": "$headlineCopy",
+          "s": "top:$headlineYPospx;left:$headlineXPospx;color:$headlineColor;font-size:$headlineFontSizepx;"
         },
         {
           "t": "e",
-          "c": "cmc-valueFrame",
-          "s": "position:absolute;width:100%;text-align:center;top:20px;"
+          "c": "sign",
+          "h": "$signCopy",
+          "s": "top:$signYPospx;left:$signXPospx;color:$signColor;font-size:$signFontSizepx;"
+        },
+        {
+          "t": "e",
+          "c": "subheadline",
+          "h": "$subheadlineCopy",
+          "s": "top:$subheadlineYPospx;left:$subheadlineXPospx;color:$subheadlineColor;font-size:$subheadlineFontSizepx;"
         }
       ]
     }
   ],
   "config": [
     {
-      "target": "$frameCMCStatus",
-      "name": "Frame CMC Status",
-      "type": "radio",
-      "groupName": "Frame CMC",
-      "groupType": "select",
-      "initialValue": "off",
-      "properties": {
-        "value": "off"
-      },
-      "options": ["on", "off"],
-      "labels": ["On", "Off"]
+      "target": "$backgroundImage",
+      "name": "Image",
+      "type": "file",
+      "groupName": "Frame Background",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
     },
     {
-      "target": "$frameCMCValue",
-      "name": "Frame CMC API Key (Frame Value)",
-      "type": "text-cmc",
-      "groupName": "Frame CMC",
-      "groupType": "text-cmc",
-      "initialValue": "",
+      "target": "$headlineCopy",
+      "name": "Headline",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "UGG",
       "properties": {
-        "value": ""
+        "value": "UGG"
+      }
+    },
+    {
+      "target": "$headlineFontSize",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 28,
+      "properties": {
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 28
+      }
+    },
+    {
+      "target": "$headlineColor",
+      "name": "Headline Color",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "#ffffff",
+      "properties": {
+        "value": "ffffff"
+      }
+    },
+    {
+      "target": "$headlineXPos",
+      "name": "X Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 118,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 118
+      }
+    },
+    {
+      "target": "$headlineYPos",
+      "name": "Y Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 83,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 83
+      }
+    },
+
+    {
+      "target": "$subheadlineCopy",
+      "name": "Sub Headline",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "Hakeem <span class='accent'> Ayeketi </span>",
+      "properties": {
+        "value": "Hakeem <span class='accent'> Ayeketi </span>"
+      }
+    },
+    {
+      "target": "$subheadlineFontSize",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 20,
+      "properties": {
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 20
+      }
+    },
+    {
+      "target": "$subheadlineColor",
+      "name": "Sub Headline Color",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "#ffffff",
+      "properties": {
+        "value": "ffffff"
+      }
+    },
+    {
+      "target": "$subheadlineXPos",
+      "name": "X Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 77,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 77
+      }
+    },
+    {
+      "target": "$subheadlineYPos",
+      "name": "Y Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 132,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 132
+      }
+    },
+    {
+      "target": "$signCopy",
+      "name": "Sign",
+      "type": "text",
+      "groupName": "Sign",
+      "groupType": "text",
+      "initialValue": "&#10005;",
+      "properties": {
+        "value": "&#10005;"
+      }
+    },
+    {
+      "target": "$signFontSize",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Sign",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$signColor",
+      "name": "Sign Color",
+      "type": "text",
+      "groupName": "Sign",
+      "groupType": "text",
+      "initialValue": "#ffffff",
+      "properties": {
+        "value": "ffffff"
+      }
+    },
+    {
+      "target": "$signXPos",
+      "name": "X Position",
+      "type": "number",
+      "groupName": "Sign",
+      "groupType": "number",
+      "initialValue": 145,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 145
+      }
+    },
+    {
+      "target": "$signYPos",
+      "name": "Y Position",
+      "type": "number",
+      "groupName": "Sign",
+      "groupType": "number",
+      "initialValue": 118,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 118
       }
     }
   ]

@@ -2,55 +2,268 @@
   "template": [
     {
       "t": "f",
-      "c": "middle-frame template-set-frame",
-      "d": 5000,
+      "c": "frame middle-frame template-set-frame",
+      "s": "visibility: hidden; height: 0px; background-color: $backgroundColor;",
+      "d": 3500,
       "j": {
-        "s": "ZnVuY3Rpb24gY21jRnJhbWVJbml0KCkgewogIHZhciBjbWNFbCA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcignLmZyYW1lLWNtYy1kYXRhJyk7CiAgdmFyIGtleXMgPSBjbWNFbC5kYXRhc2V0OwoKICBpZiAoa2V5cy5zdGF0dXMgPT09ICdvbicpIHsKICAgIGlmIChrZXlzLnZhbHVlRnJhbWUubGVuZ3RoID49IDEpIHsKICAgICAgZmV0Y2hDbWNEYXRhKGtleXMudmFsdWVGcmFtZSwgcGFyZW50Tm9kZS5xdWVyeVNlbGVjdG9yKCcuY21jLXZhbHVlRnJhbWUnKSwgYXBwZW5kRGF0YVRvRWwpOwogICAgfQogIH0KfQoKY21jRnJhbWVJbml0KCk7Cg=="
+        "s": "ZnVuY3Rpb24gaW5pdEdsb2JhbEFuaW1hdGlvbnMoKSB7CiAgICAgIGNvbnN0IERVUkFUSU9OID0gMC41OwogICAgICBjb25zdCB0bCA9IGdzYXAudGltZWxpbmUoKTsKICAgICAgY29uc3QgY3VycmVudEZyYW1lID0gJy5taWRkbGUtZnJhbWUnOwoKICAgICAgLy8gIERlZmluZSBlbGVtZW50IHNlbGVjdG9ycwogICAgICBjb25zdCBoZWFkbGluZVNlbGVjdG9yID0gYCR7Y3VycmVudEZyYW1lfSAuaGVhZGxpbmVgOwogICAgICBjb25zdCBzdWJoZWFkbGluZVNlbGVjdG9yID0gYCR7Y3VycmVudEZyYW1lfSAuc3ViaGVhZGxpbmVgOwogICAgICBjb25zdCBzaWduU2VsZWN0b3IgPSBgJHtjdXJyZW50RnJhbWV9IC5zaWduYDsKICAgICAgY29uc3QgYWNjZW50U2VsZWN0b3IgPSBgJHtjdXJyZW50RnJhbWV9IC5hY2NlbnRgOwogICAgICBjb25zdCBjYXJvdXNlbFNlbGVjdG9yID0gYCR7Y3VycmVudEZyYW1lfSAuY2Fyb3VzZWxgOwoKICAgICAgdGwudG8oY3VycmVudEZyYW1lLCB7CiAgICAgICAgdmlzaWJpbGl0eTogJ3Zpc2libGUnLAogICAgICAgIGR1cmF0aW9uOiAwLAogICAgICB9KQogICAgICAgIC50byhjdXJyZW50RnJhbWUsIHsKICAgICAgICAgIGhlaWdodDogJzEwMCUnLAogICAgICAgICAgZHVyYXRpb246IDEsCiAgICAgICAgfSkKICAgICAgICAuZnJvbVRvKAogICAgICAgICAgaGVhZGxpbmVTZWxlY3RvciwKICAgICAgICAgIHsKICAgICAgICAgICAgb3BhY2l0eTogMCwKICAgICAgICAgICAgc2NhbGU6IDAsCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICBvcGFjaXR5OiAxLAogICAgICAgICAgICBzY2FsZTogMSwKICAgICAgICAgIH0KICAgICAgICApCiAgICAgICAgLmZyb21UbygKICAgICAgICAgIHNpZ25TZWxlY3RvciwKICAgICAgICAgIHsKICAgICAgICAgICAgb3BhY2l0eTogMCwKICAgICAgICAgICAgc2NhbGU6IDAsCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICBvcGFjaXR5OiAxLAogICAgICAgICAgICBzY2FsZTogMSwKICAgICAgICAgIH0KICAgICAgICApCiAgICAgICAgLnRvKHNpZ25TZWxlY3RvciwgewogICAgICAgICAgcm90YXRlOiAzOTAsCiAgICAgICAgICBkdXJhdGlvbjogMSwKICAgICAgICB9KQogICAgICAgIC50byhzaWduU2VsZWN0b3IsIHsKICAgICAgICAgIHJvdGF0ZTogJy09MzAnLAogICAgICAgIH0pCiAgICAgICAgLmZyb21UbygKICAgICAgICAgIHN1YmhlYWRsaW5lU2VsZWN0b3IsCiAgICAgICAgICB7CiAgICAgICAgICAgIG9wYWNpdHk6IDAsCiAgICAgICAgICAgIHk6IDIwLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgb3BhY2l0eTogMSwKICAgICAgICAgICAgeTogMCwKICAgICAgICAgIH0sCiAgICAgICAgICAnLT0xJwogICAgICAgICkKICAgICAgICAuZnJvbVRvKAogICAgICAgICAgYWNjZW50U2VsZWN0b3IsCiAgICAgICAgICB7CiAgICAgICAgICAgIG9wYWNpdHk6IDAsCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICBvcGFjaXR5OiAxLAogICAgICAgICAgfSwKICAgICAgICAgICctPTAuNScKICAgICAgICApCiAgICAgICAgLmZyb21UbygKICAgICAgICAgIGNhcm91c2VsU2VsZWN0b3IsCiAgICAgICAgICB7CiAgICAgICAgICAgIG9wYWNpdHk6IDAsCiAgICAgICAgICAgIHk6IDIwLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgb3BhY2l0eTogMSwKICAgICAgICAgICAgeTogMCwKICAgICAgICAgICAgZHVyYXRpb246IDEsCiAgICAgICAgICB9LAogICAgICAgICAgJy09MC41JwogICAgICAgICk7CgogICAgICBjb25zdCBUT1RBTF9JTUFHRVMgPSAzOwoKICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBUT1RBTF9JTUFHRVM7IGkrKykgewogICAgICAgIHRsLnRvKGNhcm91c2VsU2VsZWN0b3IsIHsKICAgICAgICAgIHg6ICctPTEwMCUnLAogICAgICAgICAgZHVyYXRpb246IDEKICAgICAgICB9LCAnKz0xJyk7CiAgICAgIH0KICAgIH0KCiAgICBpbml0R2xvYmFsQW5pbWF0aW9ucygpOw=="
       },
       "e": [
         {
           "t": "e",
-          "c": "",
-          "h": "",
+          "c": "headline",
+          "h": "$headlineCopy",
+          "s": "top:$headlineYPospx;left:$headlineXPospx;color:$headlineColor;font-size:$headlineFontSizepx;"
+        },
+        {
+          "t": "e",
+          "c": "sign",
+          "h": "$signCopy",
+          "s": "top:$signYPospx;left:$signXPospx;color:$signColor;font-size:$signFontSizepx;"
+        },
+        {
+          "t": "e",
+          "c": "subheadline",
+          "h": "$subheadlineCopy",
+          "s": "top:$subheadlineYPospx;left:$subheadlineXPospx;color:$subheadlineColor;font-size:$subheadlineFontSizepx;"
+        },
+        {
+          "t": "e",
+          "c": "carousel-container",
+          "h": "<div class='carousel'><img src='$carouselImage1' alt='Ugg Boot'/><img src='$carouselImage2' alt='Ugg Boot'/><img src='$carouselImage3' alt='Ugg Boot'/></div",
           "s": ""
-        },
-        {
-          "t": "e",
-          "s": "display: none;",
-          "h": "<div class='frame-cmc-data' data-status='$frameCMCStatus' data-value-frame='$frameCMCValue'></div>"
-        },
-        {
-          "t": "e",
-          "c": "cmc-valueFrame",
-          "s": "position:absolute;width:100%;text-align:center;top:20px;"
         }
       ]
     }
   ],
   "config": [
     {
-      "target": "$frameCMCStatus",
-      "name": "Frame CMC Status",
-      "type": "radio",
-      "groupName": "Frame CMC",
-      "groupType": "select",
-      "initialValue": "off",
+      "target": "$backgroundColor",
+      "name": "Background",
+      "type": "text",
+      "groupName": "Background",
+      "groupType": "text",
+      "initialValue": "#eeeeee",
       "properties": {
-        "value": "off"
-      },
-      "options": ["on", "off"],
-      "labels": ["On", "Off"]
+        "value": "#eeeeee"
+      }
     },
     {
-      "target": "$frameCMCValue",
-      "name": "Frame CMC API Key (Frame Value)",
-      "type": "text-cmc",
-      "groupName": "Frame CMC",
-      "groupType": "text-cmc",
-      "initialValue": "",
+      "target": "$headlineCopy",
+      "name": "Headline",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "UGG",
       "properties": {
-        "value": ""
+        "value": "UGG"
       }
+    },
+    {
+      "target": "$headlineFontSize",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 28,
+      "properties": {
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 28
+      }
+    },
+    {
+      "target": "$headlineColor",
+      "name": "Headline Color",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "#000000",
+      "properties": {
+        "value": "000000"
+      }
+    },
+    {
+      "target": "$headlineXPos",
+      "name": "X Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 118,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 118
+      }
+    },
+    {
+      "target": "$headlineYPos",
+      "name": "Y Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 24,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 24
+      }
+    },
+
+    {
+      "target": "$subheadlineCopy",
+      "name": "Sub Headline",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "Hakeem <span class='accent'> Ayeketi </span>",
+      "properties": {
+        "value": "Hakeem <span class='accent'> Ayeketi </span>"
+      }
+    },
+    {
+      "target": "$subheadlineFontSize",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 20,
+      "properties": {
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 20
+      }
+    },
+    {
+      "target": "$subheadlineColor",
+      "name": "Sub Headline Color",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "#000000",
+      "properties": {
+        "value": "000000"
+      }
+    },
+    {
+      "target": "$subheadlineXPos",
+      "name": "X Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 77,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 77
+      }
+    },
+    {
+      "target": "$subheadlineYPos",
+      "name": "Y Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 70,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 70
+      }
+    },
+    {
+      "target": "$signCopy",
+      "name": "Sign",
+      "type": "text",
+      "groupName": "Sign",
+      "groupType": "text",
+      "initialValue": "&#10005;",
+      "properties": {
+        "value": "&#10005;"
+      }
+    },
+    {
+      "target": "$signFontSize",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Sign",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$signColor",
+      "name": "Sign Color",
+      "type": "text",
+      "groupName": "Sign",
+      "groupType": "text",
+      "initialValue": "#000000",
+      "properties": {
+        "value": "000000"
+      }
+    },
+    {
+      "target": "$signXPos",
+      "name": "X Position",
+      "type": "number",
+      "groupName": "Sign",
+      "groupType": "number",
+      "initialValue": 145,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 145
+      }
+    },
+    {
+      "target": "$signYPos",
+      "name": "Y Position",
+      "type": "number",
+      "groupName": "Sign",
+      "groupType": "number",
+      "initialValue": 59,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 59
+      }
+    },
+    {
+      "target": "$carouselImage1",
+      "name": "Image 1",
+      "type": "file",
+      "groupName": "Carousel",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    },
+    {
+      "target": "$carouselImage2",
+      "name": "Image 2",
+      "type": "file",
+      "groupName": "Carousel",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    },
+    {
+      "target": "$carouselImage3",
+      "name": "Image 3",
+      "type": "file",
+      "groupName": "Carousel",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
     }
   ]
 }

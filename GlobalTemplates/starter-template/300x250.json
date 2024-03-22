@@ -6,7 +6,7 @@
     },
     {
       "t": "s",
-      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}"
+      "s": ".dynamicAdvertContainer .frame.dev{height:100%!important;visibility:visible!important;}.dynamicAdvertContainer .backgroundImage-container{width:100%;height:100%;}.dynamicAdvertContainer .backgroundImage{width:100%;height:100%;object-fit:cover;}.dynamicAdvertContainer .start-frame{cursor:pointer;position:absolute;inset:0;}.dynamicAdvertContainer .start-frame .headline{position:absolute}.dynamicAdvertContainer .start-frame .sign{position:absolute}.dynamicAdvertContainer .start-frame .subheadline{position:absolute}.dynamicAdvertContainer .middle-frame{position:absolute;inset:0}.dynamicAdvertContainer .middle-frame .headline{position:absolute}.dynamicAdvertContainer .middle-frame .sign{color:black;position:absolute}.dynamicAdvertContainer .middle-frame .subheadline{position:absolute}.dynamicAdvertContainer .middle-frame .carousel-container{width:100%;height:150px;position:absolute;bottom:0;overflow:hidden;}.dynamicAdvertContainer .middle-frame .carousel{height:100%;width:100%;display:flex;}.dynamicAdvertContainer .middle-frame .carousel img{flex-basis:100%;flex-shrink:0;height:100%;object-fit:contain;}"
     },
     {
       "t": "j",
@@ -14,89 +14,8 @@
     },
     {
       "t": "j",
-      "s": "Ci8vIEZ1bmN0aW9uIHJlc3BvbnNpYmxlIGZvciBzZW5kaW5nIEdFVCByZXF1ZXN0CgpmdW5jdGlvbiBmZXRjaENtY0RhdGEocXVlcnksIGVsLCBjYikgewogICAgY29uc3QgQ01DVXJsID0gJ2h0dHBzOi8vZDI5ejJuYmVpbXk3MG8uY2xvdWRmcm9udC5uZXQvYXBpL2R5bmFtaWMtY29udGVudC9mdWxsLWtleS8nOwogICAgbGV0IHVybCA9IENNQ1VybCArIHF1ZXJ5ICsgJy92YWx1ZSc7CiAgICBsZXQgcmVxID0gbmV3IFhNTEh0dHBSZXF1ZXN0KCk7CgogICAgcmVxLm9wZW4oJ0dFVCcsIHVybCwgdHJ1ZSk7CiAgICByZXEub25sb2FkID0gZnVuY3Rpb24oKSB7CiAgICAgICAgaWYgKHRoaXMuc3RhdHVzID49IDIwMCAmJiB0aGlzLnN0YXR1cyA8IDQwMCkgewogICAgICAgICAgICB2YXIgZGF0YSA9IEpTT04ucGFyc2UodGhpcy5yZXNwb25zZSk7CiAgICAgICAgICAgIGNiKGRhdGEsIGVsKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjb25zb2xlLmxvZygnZXJyb3IgZmV0Y2hpbmcgY21jIGRhdGEnKTsKICAgICAgICB9CiAgICB9OwoKICAgIHJlcS5vbmVycm9yID0gZnVuY3Rpb24oKSB7CiAgICAgICAgY29uc29sZS5sb2coJ0NNQyBjb25uZWN0aW9uIEVycm9yJyk7CiAgICB9OwogICAgcmVxLnNlbmQoKTsKfQoKLy8gRnVuY3Rpb24gcmVzcG9uc2libGUgZm9yIGluaXRpYWxpc2luZyB0aGUgQ01DIGNhbGwgYW5kIGhhbmRsaW5nIHRoZSByZXNwb25zZQoKZnVuY3Rpb24gY21jR2xvYmFsSW5pdCgpIHsKICAgIHZhciBjbWNFbCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5nbG9iYWwtY21jLWRhdGEnKTsKICAgIHZhciBrZXlzID0gY21jRWwuZGF0YXNldDsKCiAgICBpZiAoa2V5cy5zdGF0dXMgPT09ICdvbicpIHsKICAgICAgICBpZiAoa2V5cy52YWx1ZUdsb2JhbC5sZW5ndGggPj0gMSkgewogICAgICAgICAgICBmZXRjaENtY0RhdGEoa2V5cy52YWx1ZUdsb2JhbCwgZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmNtYy12YWx1ZUdsb2JhbCcpLCBhcHBlbmREYXRhVG9FbCk7CiAgICAgICAgfQogICAgfQp9CgovLyBGdW5jdGlvbiBmb3IgaW5qZWN0aW5nIHJlc3BvbnNlIGludG8gRE9NCgpmdW5jdGlvbiBhcHBlbmREYXRhVG9FbChkYXRhLCBlbCkgewogICAgZWwuaW5uZXJIVE1MID0gZGF0YTsKfQoKY21jR2xvYmFsSW5pdCgpOwo="
-    },
-    {
-      "t": "e",
-      "c": "devGuide",
-      "s": "opacity:$devoveropacity;visibility:$devoveronoff;",
-      "h": "<img src='$devGuide'>"
-    },
-    {
-      "t": "e",
-      "s": "display: none;",
-      "h": "<div class='global-cmc-data' data-status='$globalCMCStatus' data-value-global='$globalCMCValue'></div>"
-    },
-    {
-      "t": "e",
-      "c": "cmc-valueGlobal",
-      "s": "position:absolute;width:100%;text-align:center;top:20px;"
-    },
-    {
-      "t": "e",
-      "c": "",
-      "s": ""
+      "s": "KGZ1bmN0aW9uICgpIHsKICBsZXQgZGFjID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmR5bmFtaWNBZHZlcnRDb250YWluZXInKTsKCiAgaWYgKGlzRGV2RW52KCkpIHsKICAgIGNvbnNvbGUubG9nKCdPbiBPcmNhJyk7CiAgICBhZGRDbGlja291dChkZXZDbGlja291dCk7CiAgICBhZGRHc2FwKCk7CiAgfSBlbHNlIHsKICAgIGFkZENsaWNrb3V0KGV4aXRDbGlja0hhbmRsZXIpOwogICAgLy8gZ3NhcCBzaG91bGQgYmUgYWRkZWQgaW4gc2hlbGwgaW4gbGl2ZSBlbnZpcm9ubWVudAogIH0KCiAgZnVuY3Rpb24gaXNEZXZFbnYoKSB7CiAgICByZXR1cm4gKAogICAgICB3aW5kb3cubG9jYXRpb24uaHJlZi5pbmRleE9mKCdvcmNhLmFkeWxpYy5jb20nKSA+IDAgfHwKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYuaW5kZXhPZigndGVtcGxhdGUuYWR5bGljb3JjYS5jb20nKSA+IDAgfHwKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYuaW5kZXhPZignc2F0dXJuLmFkeWxpYy5jb20nKSA+IDAgfHwKICAgICAgd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lID09PSAnMTI3LjAuMC4xJyB8fAogICAgICB3aW5kb3cubG9jYXRpb24uaG9zdG5hbWUgPT09ICdsb2NhbGhvc3QnCiAgICApOwogIH0KCiAgZnVuY3Rpb24gYWRkQ2xpY2tvdXQoY2FsbGJhY2spIHsKICAgIGRhYy5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsIGNhbGxiYWNrKTsKICB9CgogIGZ1bmN0aW9uIGRldkNsaWNrb3V0KCkgewogICAgY29uc29sZS5sb2coJ0NsaWNrb3V0IHdvcmtzJyk7CiAgfQoKICBmdW5jdGlvbiBhZGRHc2FwKCkgewogICAgbGV0IHMxID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7CiAgICAvLyBVcGRhdGUgc3JjIHRvIGxhdGVzdCB2ZXJzaW9uIG9mIHZlbmRvciBzcGVjaWZpYyBHU0FQIENETjogaS5lLiBEb3VibGVjbGljaywgU2l6bWVrCiAgICBzMS5zZXRBdHRyaWJ1dGUoCiAgICAgICdzcmMnLAogICAgICAnaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvZ3NhcC8zLjQuMi9nc2FwLm1pbi5qcycKICAgICk7CiAgICBkZWZpbmUgPSBudWxsOwogICAgZGFjLmFwcGVuZENoaWxkKHMxKTsKICB9Cn0pKCk7"
     }
   ],
-  "config": [
-    {
-      "target": "$devGuide",
-      "name": "Development Overlay",
-      "type": "file",
-      "groupName": "Development Overlay",
-      "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
-    },
-    {
-      "target": "$devoveronoff",
-      "name": "On/Off",
-      "type": "radio",
-      "groupName": "Development Overlay",
-      "groupType": "select",
-      "initialValue": "hidden",
-      "properties": {
-        "value": "hidden"
-      },
-      "options": ["visible", "hidden"],
-      "labels": ["On", "Off"]
-    },
-    {
-      "target": "$devoveropacity",
-      "name": "Opacity",
-      "type": "number",
-      "groupName": "Development Overlay",
-      "groupType": "number",
-      "initialValue": 0.5,
-      "properties": {
-        "min": 0.1,
-        "max": 1.0,
-        "step": 0.1,
-        "value": 0.5
-      }
-    },
-    {
-      "target": "$globalCMCStatus",
-      "name": "Global CMC Status",
-      "type": "radio",
-      "groupName": "Global CMC",
-      "groupType": "select",
-      "initialValue": "off",
-      "properties": {
-        "value": "off"
-      },
-      "options": ["on", "off"],
-      "labels": ["On", "Off"]
-    },
-    {
-      "target": "$globalCMCValue",
-      "name": "Global CMC API Key (Global Value)",
-      "type": "text-cmc",
-      "groupName": "Global CMC",
-      "groupType": "text-cmc",
-      "initialValue": "",
-      "properties": {
-        "value": ""
-      }
-    }
-  ]
+  "config": []
 }
